@@ -1,0 +1,23 @@
+{
+  "name": "todobackend-specs",
+  "version": "1.0.0",
+  "description": "acceptance test docker container",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.2.0",
+    "mocha-jenkins-reporter": "^0.4.0",
+    "superagent": "^4.0.0-beta.5",
+    "superagent-promise": "^1.1.0"
+  }
+}
